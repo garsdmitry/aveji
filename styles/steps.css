@@ -1,0 +1,78 @@
+.main-steps-header__title {
+    width: 562px;
+    color: var(--text-main, #212529);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 48px;
+    line-height: normal;
+}
+
+.main-steps-body__subtitle {
+    width: 325px;
+    color: var(--text-main, #212529);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.main-steps {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 164px;
+}
+
+.main-steps-header {
+    display: flex;
+    width: 50%;
+}
+
+.main-steps-body {
+    width: 50%;
+}
+
+.main-steps-body-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.main-steps-body-section {
+    display: flex;
+    border-bottom: 1px solid #000;
+    padding-bottom: 24px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.main-steps-body-title {
+    width: 50%;
+    color: var(--text-main, #212529);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 36px;
+    line-height: normal;
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-steps-body-text {
+    width: 50%;
+    color: var(--text-main, #212529);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.main-steps-header__subtitle {
+    padding-bottom: 44px;
+}
+
+hr {
+    width: 678px;
+    height: 1px;
+    background: #000;
+}

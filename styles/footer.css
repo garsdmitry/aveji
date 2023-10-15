@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.footer-info,
+.footer-social {
+    color: var(--text-main, #212529);
+    font-family: Roboto;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: var(--text-main, #212529);
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.footer-social__vk {
+    padding-right: 40px;
+}
