@@ -1,10 +1,11 @@
-.main-form__image {
+.form__image {
     width: 562px;
     height: 566px;
     padding-top: 120px;
+    padding-left: 75px;
 }
 
-.main-form-content__title {
+.form-content__title {
     width: 678px;
     color: #000;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -16,36 +17,46 @@
     margin-bottom: 32px;
 }
 
-.main-form-content__subtitle {
+.form-content__subtitle {
     color: #000;
     font-size: 16px;
     padding-bottom: 72px;
 }
 
-.main-form {
+.form {
     display: flex;
+    padding-left: 32px;
 }
 
-.main-form-content {
-    padding-left: 136px;
+.form-content {
+    width: 678px;
+    position: absolute;
+    left: 815px;
     display: flex;
     flex-direction: column;
 }
 
-.main-form-content__button {
+.form-input-button {
+    width: 176px;
+    height: 46px;
     background: var(--text-main, #212529);
     display: inline-flex;
-    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 40px;
     margin-top: 24px;
     margin-right: 534px;
 }
 
-.main-form-content__text {
+.form-input__text {
     color: var(--bg-white, #FFF);
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
+    background: none;
+    width: 176px;
+    height: 46px;
+    border: none;
 }
 
 input {
@@ -63,7 +74,7 @@ input {
     outline: none;
 }
 
-.form {
+.form-input {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -75,7 +86,7 @@ input::placeholder {
     font-size: 16px;
 }
 
-.main-form-content-apps {
+.form-content-apps {
     display: flex;
     gap: 8px;
 }

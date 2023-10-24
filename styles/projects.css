@@ -1,4 +1,4 @@
-.main-projects-header__title {
+.projects-header__title {
     width: 562px;
     color: var(--text-main, #212529);
     font-feature-settings: 'clig' off, 'liga' off;
@@ -8,17 +8,17 @@
     margin-bottom: 32px;
 }
 
-.main-projects-header {
+.projects-header {
     padding-top: 120px;
 }
 
-.main-projects-body {
+.projects-body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.main-projects-body__link {
+.projects-body__link {
     width: 425px;
     height: 66px;
     background: #21252980;
@@ -36,7 +36,7 @@
     margin-top: -70px;
 }
 
-.main-projects-body__arrow {
+.projects-body__arrow {
     width: 12px;
     height: 12px;
     margin-right: 27px;
