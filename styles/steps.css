@@ -1,3 +1,9 @@
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+}
+
 .steps-header__title {
     width: 562px;
     color: var(--text-main, #212529);
@@ -16,11 +22,6 @@
     line-height: 140%;
 }
 
-.steps {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 164px;
-}
 
 .steps-header {
     display: flex;
