@@ -5,7 +5,8 @@
 }
 
 .header-logo {
-    width: 98px;
+    width: 70px;
+    height: 74px;
 }
 
 .header-menu {
@@ -37,4 +38,17 @@
     line-height: normal;
     line-height: normal;
     text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+    .header-logo {
+        width: 39px;
+        height: 41px;
+    }
+    .header-menu  {
+        display: none;
+    }
+    .header-address {
+        display: none;
+    }
 }
