@@ -1,8 +1,6 @@
 .form__image {
     width: 562px;
     height: 566px;
-    padding-top: 120px;
-    padding-left: 75px;
 }
 
 .form-content__title {
@@ -13,8 +11,7 @@
     font-size: 48px;
     line-height: normal;
     position: relative;
-    margin-top: 120px;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .form-content__subtitle {
@@ -25,15 +22,14 @@
 
 .form {
     display: flex;
-    padding-left: 32px;
+    padding-top: 120px;
 }
 
 .form-content {
     width: 678px;
-    position: absolute;
-    left: 815px;
     display: flex;
     flex-direction: column;
+    padding-left: 136px;
 }
 
 .form-input-button {
