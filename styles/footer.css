@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 120px;
+    text-decoration: none;
 }
 
 .footer-info,
@@ -17,6 +18,7 @@
     color: var(--text-main, #212529);
     font-family: Roboto;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .footer-social {
@@ -25,4 +27,11 @@
 
 .footer-social__vk {
     padding-right: 40px;
+    text-decoration: none;
+    color: #212529;
+}
+
+.footer-social__tg {
+    text-decoration: none;
+    color: #212529;
 }
