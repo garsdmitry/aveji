@@ -1,0 +1,60 @@
+.review-header {
+    width: 562px;
+    color: var(--text-main, #212529);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 48px;
+    line-height: normal;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 32px;
+}
+
+.review-body {
+    display: flex;
+    gap: 20px;
+}
+
+.review-body-card {
+    width: 445px;
+    height: 327px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.review-body-card-quotes {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    margin-left: 203px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.review-body-card-user {
+    color: var(--text-main, #212529);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: normal;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.review-body-card-text {
+    width: 365px;
+    color: var(--text-main, #212529);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    display: flex;
+    position: relative;
+    margin-left: 70px;
+}
