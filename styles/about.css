@@ -69,6 +69,7 @@
     .about {
         display: flex;
         flex-direction: column;
+        padding-bottom: 48px;
     }
 
     .about-header__title {
