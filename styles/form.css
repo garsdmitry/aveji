@@ -86,3 +86,38 @@ input::placeholder {
     display: flex;
     gap: 8px;
 }
+
+@media screen and (max-width: 375px) {
+    .form {
+        padding-top: 48px;
+    }
+
+    .form__image {
+        display: none;
+    }
+
+    .form-content {
+        padding-left: 0;
+    }
+
+    .form-content__title {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+
+    .form-content__subtitle {
+        font-size: 16px;
+        padding-bottom: 32px;
+    }
+
+    input {
+        width: 342px;
+    }
+
+    .form-input-button {
+        margin-bottom: 28px;
+        margin-top: 20px;
+        margin-right: 183px;
+    }
+
+}
