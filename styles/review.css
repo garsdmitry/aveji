@@ -58,3 +58,44 @@
     position: relative;
     margin-left: 70px;
 }
+
+@media screen and (max-width: 375px) {
+    .review-body {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .review-body-card {
+        width: 343px;
+        height: 332px;
+    }
+
+    .review-body-card-quotes {
+        width: 40px;
+        height: 40px;
+        margin: 0;
+        padding-top: 32px;
+        padding-left: 156px;
+    }
+
+    .review-body-card-user {
+        padding-bottom: 20px;
+        padding-top: 32px;
+        margin: 0;
+    }
+
+    .review-body-card-text {
+        width: 278px;
+        padding-left: 32px;
+        padding-bottom: 37px;
+        margin: 0;
+    }
+
+    .review-header {
+        width: 213px;
+        font-size: 28px;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+}
