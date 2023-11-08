@@ -80,6 +80,7 @@
     .steps {
         display: flex;
         flex-direction: column;
+        padding-bottom: 0;
     }
 
     .steps-header__title {

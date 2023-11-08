@@ -58,3 +58,10 @@
 .project__image:hover+.project__link {
     display: flex;
 }
+
+@media screen and (max-width: 375px) {
+    .projects {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+}
