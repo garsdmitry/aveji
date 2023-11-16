@@ -59,9 +59,22 @@
     display: flex;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
     .projects {
+        overflow: hidden;
         padding-top: 48px;
         padding-bottom: 48px;
+    }
+
+    .projects__list {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 100vw;
+    }
+
+    .project {
+        width: 252px;
+        height: 328px;
+        flex: 0 0 auto;
     }
 }

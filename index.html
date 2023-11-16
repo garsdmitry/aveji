@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aveji</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles/global.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/showcase.css">
@@ -22,6 +23,9 @@
       <div class="header-logo">
         <img src="assets/logo.svg" alt="logo">
       </div>
+      <div class="header-hamburger-menu__wrapper">
+        <div class="header-hamburger-menu"></div>
+      </div>
       <nav class="header-menu">
         <ul>
           <li>
@@ -38,6 +42,22 @@
           </li>
         </ul>
       </nav>
+      <div class="header-mobile__menu">
+        <ul class="header-mobile__list">
+          <li>
+            <a href="#" class="header-mobile__link">О нас</a>
+          </li>
+          <li>
+            <a href="#" class="header-mobile__link">Проекты</a>
+          </li>
+          <li>
+            <a href="#" class="header-mobile__link">Материалы</a>
+          </li>
+          <li>
+            <a href="#" class="header-mobile__link">Отзывы</a>
+          </li>
+        </ul>
+      </div>
       <address class="header-address">
         <a class="header-address__number" href="tel:+79999999999">+7 999 999 99 99</a>
       </address>
@@ -228,20 +248,20 @@
         <div class="review-body">
           <div class="review-body-card">
             <div class="review-body-card-quotes">
-              <img src="assets/quotes.svg" alt="quotes">
+              <img class="card-quotes__item" src="assets/quotes.svg" alt="quotes">
             </div>
             <div class="review-body-card-user">
               <b>Игорь Антонов</b>
             </div>
             <div class="review-body-card-text">
-              Обратилась к Aveji по рекомендации. Команда<br>сразу поняла, какой дизайн я хочу.<br>Предоставили
+              Обратилась к Aveji по рекомендации. Команда<br>сразу поняла, какой дизайн я хочу. <br>Предоставили
               несколько
-              вариантов<br>и в течение недели сделали наброски. Итог<br>понравился, все на высшем уровне.
+              вариантов<br>и в течение недели сделали наброски. Итог <br>понравился, все на высшем уровне.
             </div>
           </div>
           <div class="review-body-card">
             <div class="review-body-card-quotes">
-              <img src="assets/quotes.svg" alt="quotes">
+              <img class="card-quotes__item" src="assets/quotes.svg" alt="quotes">
             </div>
             <div class="review-body-card-user">
               <b>Ольга Иванова</b>
@@ -253,7 +273,7 @@
           </div>
           <div class="review-body-card">
             <div class="review-body-card-quotes">
-              <img src="assets/quotes.svg" alt="quotes">
+              <img class="card-quotes__item" src="assets/quotes.svg" alt="quotes">
             </div>
             <div class="review-body-card-user">
               <b>Аркадий Макаров</b>
@@ -330,6 +350,9 @@
       </div>
     </footer>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="scripts/menu.js"></script>
+  <script type="module" src="scripts/slider.js"></script>
 </body>
 
 </html>

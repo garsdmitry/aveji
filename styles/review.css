@@ -59,11 +59,16 @@
     margin-left: 70px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
     .review-body {
         display: flex;
         flex-direction: column;
         gap: 16px;
+    }
+
+    .card-quotes__item {
+        height: 32px;
+        width: 32px;
     }
 
     .review-body-card {
@@ -72,8 +77,6 @@
     }
 
     .review-body-card-quotes {
-        width: 40px;
-        height: 40px;
         margin: 0;
         padding-top: 32px;
         padding-left: 156px;

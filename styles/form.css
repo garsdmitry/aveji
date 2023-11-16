@@ -87,7 +87,7 @@ input::placeholder {
     gap: 8px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
     .form {
         padding-top: 48px;
     }

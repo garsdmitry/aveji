@@ -50,7 +50,7 @@
     display: flex;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
     .showcase-header__title {
         width: 343px;
         color: var(--text-main, #212529);

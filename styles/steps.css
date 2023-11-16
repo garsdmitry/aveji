@@ -76,7 +76,7 @@
     display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
     .steps {
         display: flex;
         flex-direction: column;
