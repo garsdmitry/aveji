@@ -2,16 +2,19 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .header-logo {
-    width: 98px;
+    width: 70px;
+    height: 74px;
 }
 
 .header-menu {
-    margin-bottom: 73.62px;
+    margin-bottom: 74px;
     width: 98px;
     padding-left: calc(7*98px + 8*24px);
+    white-space: nowrap;
 }
 
 .header-address__number {
@@ -27,6 +30,64 @@
     font-size: 18px;
     line-height: normal;
     text-decoration: none;
+    white-space: nowrap;
+}
+
+.header-mobile__menu {
+    display: none;
+}
+
+.header-hamburger-menu,
+.header-hamburger-menu::before,
+.header-hamburger-menu::after {
+    background-color: #000;
+    height: 1px;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+}
+
+.header-hamburger-menu::before,
+.header-hamburger-menu::after {
+    position: absolute;
+    content: "";
+}
+
+.header-hamburger-menu {
+    position: relative;
+    margin: 6px 0;
+}
+
+.header-hamburger-menu::before {
+    top: -6px;
+    left: 0;
+}
+
+.header-hamburger-menu::after {
+    top: 6px;
+    right: 0;
+    width: 50%;
+}
+
+.header-hamburger-menu_close {
+    background-color: transparent;
+}
+
+.header-hamburger-menu_close::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.header-hamburger-menu_close::after {
+    transform: rotate(-45deg);
+    top: 0;
+    width: 100%;
+}
+
+.header-hamburger-menu__wrapper {
+    width: 24px;
+    display: flex;
+    align-items: center;
+    display: none;
 }
 
 .header-menu__link {
@@ -37,4 +98,52 @@
     line-height: normal;
     line-height: normal;
     text-decoration: none;
+}
+
+@media screen and (max-width: 390px) {
+    .header {
+        align-items: center;
+    }
+
+    .header-logo {
+        width: 39px;
+        height: 41px;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .header-address {
+        display: none;
+    }
+
+    .header-mobile__menu {
+        position: absolute;
+        background: red;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: 50;
+    }
+
+    .header-hamburger-menu__wrapper {
+        display: block;
+    }
+
+    .header-mobile__link {
+        text-decoration: none;
+        font-size: 40px;
+        color: #000;
+    }
+
+    .header-mobile__list {
+        padding-top: 100px;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
 }
